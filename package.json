@@ -16,9 +16,9 @@
     "react-fusioncharts": "^1.0.4",
     "react-google-charts": "^1.5.5",
     "react-growl": "^0.1.2",
-    "react-localstorage": "^0.3.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
+    "reactjs-localstorage": "0.0.5",
     "save": "^2.3.1"
   },
   "scripts": {
