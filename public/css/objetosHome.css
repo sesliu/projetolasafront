@@ -1,0 +1,253 @@
+body {
+    width: 100%;
+    background: linear-gradient( to right,white,lightgray);
+}
+.sidenav {
+    padding-top: 10px;
+    height: 100%;
+    margin-top:1%;
+    width: 150px;
+    position: inherit;
+    border-radius: 12px; 
+    background-color: #F5F5F5;
+    box-shadow:  5px 5px 2px gray;
+    box-shadow:  inset 1px 1px 9px gray;
+}
+.row.content {
+    height: 450px;
+}
+.navbar {
+    background-color: #B22222;
+    z-index: 100;
+    box-shadow: 5px 5px 2px #C0C0C0;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+    background: linear-gradient(to right, #FFFFFF, #B22222)
+}
+
+.navbar-right{
+
+        background: linear-gradient(to right,  #B22222,#FFFFFF)
+}
+
+footer {
+    padding: 15px;
+}
+#pagina {
+    background-color: white;
+    height: 500px;
+    z-index: 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    overflow-y: auto;
+    box-shadow: inset 2px 2px 11px #C0C0C0;
+}
+@media screen and (max-with: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    footer {
+        padding: auto;
+    }
+}
+#main {
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: -492px;
+    padding-left: 0 auto;
+    width: auto;
+}
+#tabela {
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px #C0C0C0;
+    margin-top: 1%;
+    margin-left: 45%;
+    width: 60%;
+    overflow-x: auto;
+    height: 250px;
+    overflow-y: auto;
+    position: relative;
+}
+#tabelaDashboard1 {
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px #C0C0C0;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 60%;
+    position: inherit;
+    overflow-x: auto;
+}
+#tabelaDashboard2 {
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px #C0C0C0;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    width: 40%;
+    position: inherit;
+    overflow-x: auto;
+}
+#inputBusca {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #B22222;
+    margin-bottom: 12px;
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
+#inputCadastro {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #B22222;
+    margin-bottom: 6px;
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
+#posicaoCadastro {
+    width: 100%;
+    position: relative;
+    margin-left: 25%;
+}
+#botao {
+    background-color: transparent;
+    color: #B22222;
+    border: 2px solid #B22222;
+    font-size: 18px;
+}
+#botaoFoto {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#imagemProduto {
+    margin-bottom: 3px;
+    border: 1px solid black;
+}
+#logo {
+    margin: 0 auto;
+    position: inherit;
+    margin-left: 18%;
+    height: auto;
+    width: auto;
+    float: left;
+    font-size: 18px;
+    font-style: italic;
+}
+#home {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 15%;
+    width: 50%;
+}
+#dashboard {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 18%;
+    overflow-y: auto;
+    height: 400px;
+    width: 72%;
+    overflow-x: hidden;
+    box-shadow: inset 5px 5px 2px #C0C0C0;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+#homedashboard {
+    position: inherit;
+}
+#buscaPesquisa {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 9%;
+    width: 60%;
+    margin-bottom: 42px;
+}
+#tabelaBusca {
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px #C0C0C0;
+    margin-top: 17%;
+    margin-left: 23%;
+    width: 60%;
+    overflow-x: auto;
+    height: 150px;
+    overflow-y: auto;
+    position:relative;
+}
+#cadastro {
+    position: inherit;
+    margin-top: 13%;
+    margin-left: 22%;
+    width: 60%;
+}
+#botaoLogin {
+    background-color: transparent;
+    color: #B22222;
+    border: 2px solid #B22222;
+    font-size: 18px;
+}
+#fundoLogin {
+    background-color: #C0C0C0;
+}
+#inputLogin {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #B22222;
+    margin-bottom: 12px;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    width: 100% margin-top: 30%;
+}
+#login {
+    border: 1px solid #C0C0C0;
+    border-radius: 4px;
+    margin-top: -4.9%;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px #C0C0C0;
+}
+#formLogin {
+    margin-top: 20px;
+    position: inherit;
+}
+#botaoLogout {
+    position: relative;
+    margin-top: -124px;
+    top: 6px;
+    padding-right: 12px;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px green;
+    font-size: 22px;
+ 
+}
+#logoErp {
+    position: relative;
+    margin-left: 12px;
+    text-shadow: 1px 1px 10px gray;
+    font-size: 30px;
+    color: green;
+    font-style: bold;
+}
+#imgLogin {
+    position: relative;
+    padding-right: 22px;
+    top: 4px;
+}
+#graficoVenda {
+    top: 15%;
+    margin-left: 50%;
+    position: absolute;
+}
+#graficoEstado {
+    margin-top: 5%;
+    margin-left: 25%;
+    position: inherit;
+}
+
+input.placeholder {
+
+    text-align: center;
+}
