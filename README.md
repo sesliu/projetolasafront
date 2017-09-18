@@ -15,6 +15,8 @@ Para executar o projeto, deve ter na máquina o NodeJS instalado:  https://nodej
 Após clonar o projeto para a máquina local, deverá executar o comando `npm install` no diretório raiz do projeto para que seja instalado os módulos e assim que terminar executar o comando `npm start` no mesmo diretório para iniciar o projeto, será aberto o browser com o endereço **http://localhost:3000**, em seguida pode-se navegar no sistema.
 
 
-Obs.:  Executar o projeto Java Spring e React na mesma máquina.
+Obs¹.:  Executar o projeto Java Spring e React na mesma máquina.
+Obs².:  O sistema não executou bem no Edge. 
+
 
 
