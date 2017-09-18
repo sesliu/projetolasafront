@@ -85,7 +85,7 @@ footer {
 #tabelaDashboard2 {
     border: 1px solid black;
     box-shadow: 5px 5px 2px #C0C0C0;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: 35%;
     margin-bottom: 20px;
     width: 40%;
@@ -245,9 +245,4 @@ footer {
     margin-top: 5%;
     margin-left: 25%;
     position: inherit;
-}
-
-input.placeholder {
-
-    text-align: center;
 }
