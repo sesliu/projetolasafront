@@ -58,7 +58,7 @@ export default class AlteraProduto extends Component {
 
         $.ajax({
 
-            url: "http://localhost:8080/api/edita/" + codigo,
+            url: "https://backjava.herokuapp.com/api/edita/" + codigo,
             contentType: 'application/json',
             dataType: 'json',
             type: 'get',
@@ -119,7 +119,7 @@ export default class AlteraProduto extends Component {
 
                     $.ajax({
 
-                        url: "http://localhost:8080/api/atualiza",
+                        url: "https://backjava.herokuapp.com/api/atualiza",
                         contentType: 'application/json',
                         dataType: 'json',
                         type: 'post',
