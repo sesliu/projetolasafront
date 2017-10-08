@@ -15,7 +15,7 @@ export default class Home extends Component {
             lista: []
         }
 
-        this.url = 'http://localhost:8080/api'
+        this.url = 'https://backjava.herokuapp.com/api'
 
     }
 
