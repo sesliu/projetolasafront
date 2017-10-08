@@ -38,7 +38,7 @@ export class GraficoVenda extends Component {
 
         $.ajax({
 
-            url: "http://localhost:8080/api/vendaProduto",
+            url: "https://backjava.herokuapp.com/api/vendaProduto",
             dataType: 'json',
             type: 'get',
             success: function(resposta) {
@@ -141,7 +141,7 @@ export class GraficoVendaEstado extends Component {
         $.ajax({
 
 
-            url: "http://localhost:8080/api/vendaEstado",
+            url: "https://backjava.herokuapp.com/api/vendaEstado",
             dataType: 'json',
             type: 'get',
             success: function(resposta) {
