@@ -147,7 +147,7 @@ export default class CadastroProduto extends Component {
 
                         $.ajax({
 
-                            url: "http://localhost:8080/api/gravar",
+                            url: "https://backjava.herokuapp.com/api/gravar",
                             contentType: 'application/json',
 
                             type: 'post',
