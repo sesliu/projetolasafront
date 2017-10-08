@@ -41,7 +41,7 @@ export default class Produto extends Component {
         this.id;
 
 
-        this.url = 'http://localhost:8080/api/';
+        this.url = 'https://backjava.herokuapp.com/api/';
 
 
 
